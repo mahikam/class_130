@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+</head>
+<body background="background2.jpg">
+<center>
+  	<h3 class="btn heading" style="background-color: #193ec294;">
+      <span style="font-family: 'Monoton', cursive;;font-size: 43px;word-spacing: 15px;">AI DJ WEB APP</span>
+	    <br>
+	    <span id="note">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed</span>
+  	</h3>
+    <div id="speed_div">
+      <img src="disk.gif" class="disk_images">
+      <br>
+      <h3 class="result_tags">Speed: <span id="speed_result"></span></h3>
+    </div>
+    <div id="volume_div">
+      <img src="disk.gif" class="disk_images">
+      <br>
+      <h3 class="result_tags">Volume: <span id="volume_result"></span></h3>
+    </div>
+	<br><br>
+  <button class="btn play_button" onclick="play()">Play</button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>

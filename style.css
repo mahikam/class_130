@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    overflow: hidden;
+}
+.heading{
+    font-size: 15px;
+    color:white;
+    width: 100%;
+    margin-top: -5px;
+}
+#note{
+    font-size: 15px;
+}
+#speed_div{
+    float:left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#volume_div{
+    float:right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.result_tags{
+    background-color:#af26ffad;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.disk_images{
+    width:100px;
+    border-radius: 50px;
+}
+.play_button{
+    width:100px;
+    font-size: 20px;
+    background-color: #af26ffad;
+    /* #5e95bd */
+    border: 2px white solid;
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 130px;
+    margin-top: -12px;
+    margin-left: 85px;
+}
+canvas{
+    border: 2px white solid;
+    border-radius: 5px;
+}
